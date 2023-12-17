@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "plinor-test-task"
+version = "0.1.0"
+description = ""
+authors = ["artem bogdanov <abogdaov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.105.0"
+uvicorn = "^0.24.0.post1"
+gunicorn = "^21.2.0"
+jupyter = "^1.0.0"
+fastapi-asyncpg = "^1.0.1"
+msgspec = "^0.18.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
